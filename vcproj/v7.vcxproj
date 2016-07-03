@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\common\base64.c" />
+    <ClCompile Include="..\common\coroutine.c" />
+    <ClCompile Include="..\common\cs_dirent.c" />
+    <ClCompile Include="..\common\cs_file.c" />
+    <ClCompile Include="..\common\cs_strtod.c" />
+    <ClCompile Include="..\common\mbuf.c" />
+    <ClCompile Include="..\common\md5.c" />
+    <ClCompile Include="..\common\sha1.c" />
+    <ClCompile Include="..\common\str_util.c" />
+    <ClCompile Include="..\common\ubjson.c" />
+    <ClCompile Include="..\common\utf.c" />
+    <ClCompile Include="..\v7\builtin\crypto.c" />
+    <ClCompile Include="..\v7\builtin\file.c" />
+    <ClCompile Include="..\v7\builtin\socket.c" />
+    <ClCompile Include="..\v7\builtin\ubjson.c" />
+    <ClCompile Include="..\v7\src\array.c" />
+    <ClCompile Include="..\v7\src\ast.c" />
+    <ClCompile Include="..\v7\src\bcode.c" />
+    <ClCompile Include="..\v7\src\compiler.c" />
+    <ClCompile Include="..\v7\src\conversion.c" />
+    <ClCompile Include="..\v7\src\core.c" />
+    <ClCompile Include="..\v7\src\cyg_profile.c" />
+    <ClCompile Include="..\v7\src\eval.c" />
+    <ClCompile Include="..\v7\src\exceptions.c" />
+    <ClCompile Include="..\v7\src\exec.c" />
+    <ClCompile Include="..\v7\src\freeze.c" />
+    <ClCompile Include="..\v7\src\function.c" />
+    <ClCompile Include="..\v7\src\gc.c" />
+    <ClCompile Include="..\v7\src\heapusage.c" />
+    <ClCompile Include="..\v7\src\js_stdlib.c" />
+    <ClCompile Include="..\v7\src\main.c" />
+    <ClCompile Include="..\v7\src\object.c" />
+    <ClCompile Include="..\v7\src\parser.i.c" />
+    <ClCompile Include="..\v7\src\primitive.c" />
+    <ClCompile Include="..\v7\src\regexp.c" />
+    <ClCompile Include="..\v7\src\shdata.c" />
+    <ClCompile Include="..\v7\src\slre.c" />
+    <ClCompile Include="..\v7\src\stdlib.c" />
+    <ClCompile Include="..\v7\src\std_array.c" />
+    <ClCompile Include="..\v7\src\std_boolean.c" />
+    <ClCompile Include="..\v7\src\std_date.c" />
+    <ClCompile Include="..\v7\src\std_error.c" />
+    <ClCompile Include="..\v7\src\std_function.c" />
+    <ClCompile Include="..\v7\src\std_json.c" />
+    <ClCompile Include="..\v7\src\std_math.c" />
+    <ClCompile Include="..\v7\src\std_number.c" />
+    <ClCompile Include="..\v7\src\std_object.c" />
+    <ClCompile Include="..\v7\src\std_regex.c" />
+    <ClCompile Include="..\v7\src\std_string.c" />
+    <ClCompile Include="..\v7\src\string.c" />
+    <ClCompile Include="..\v7\src\tokenizer.c" />
+    <ClCompile Include="..\v7\src\util.c" />
+    <ClCompile Include="..\v7\src\varint.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\common\base64.h" />
+    <ClInclude Include="..\common\coroutine.h" />
+    <ClInclude Include="..\common\cs_dirent.h" />
+    <ClInclude Include="..\common\cs_file.h" />
+    <ClInclude Include="..\common\cs_strtod.h" />
+    <ClInclude Include="..\common\mbuf.h" />
+    <ClInclude Include="..\common\md5.h" />
+    <ClInclude Include="..\common\platform.h" />
+    <ClInclude Include="..\common\platforms\platform_cc3200.h" />
+    <ClInclude Include="..\common\platforms\platform_esp_lwip.h" />
+    <ClInclude Include="..\common\platforms\platform_unix.h" />
+    <ClInclude Include="..\common\platforms\platform_windows.h" />
+    <ClInclude Include="..\common\platforms\simplelink\cs_simplelink.h" />
+    <ClInclude Include="..\common\sha1.h" />
+    <ClInclude Include="..\common\str_util.h" />
+    <ClInclude Include="..\common\ubjson.h" />
+    <ClInclude Include="..\common\utf.h" />
+    <ClInclude Include="..\v7\builtin\builtin.h" />
+    <ClInclude Include="..\v7\src\array.h" />
+    <ClInclude Include="..\v7\src\array_public.h" />
+    <ClInclude Include="..\v7\src\ast.h" />
+    <ClInclude Include="..\v7\src\bcode.h" />
+    <ClInclude Include="..\v7\src\compiler.h" />
+    <ClInclude Include="..\v7\src\conversion.h" />
+    <ClInclude Include="..\v7\src\conversion_public.h" />
+    <ClInclude Include="..\v7\src\core.h" />
+    <ClInclude Include="..\v7\src\core_public.h" />
+    <ClInclude Include="..\v7\src\cyg_profile.h" />
+    <ClInclude Include="..\v7\src\eval.h" />
+    <ClInclude Include="..\v7\src\exceptions.h" />
+    <ClInclude Include="..\v7\src\exceptions_public.h" />
+    <ClInclude Include="..\v7\src\exec.h" />
+    <ClInclude Include="..\v7\src\exec_public.h" />
+    <ClInclude Include="..\v7\src\features_full.h" />
+    <ClInclude Include="..\v7\src\features_medium.h" />
+    <ClInclude Include="..\v7\src\features_minimal.h" />
+    <ClInclude Include="..\v7\src\features_profiles.h" />
+    <ClInclude Include="..\v7\src\freeze.h" />
+    <ClInclude Include="..\v7\src\function.h" />
+    <ClInclude Include="..\v7\src\function_public.h" />
+    <ClInclude Include="..\v7\src\gc.h" />
+    <ClInclude Include="..\v7\src\gc_public.h" />
+    <ClInclude Include="..\v7\src\heapusage.h" />
+    <ClInclude Include="..\v7\src\internal.h" />
+    <ClInclude Include="..\v7\src\js_stdlib.h" />
+    <ClInclude Include="..\v7\src\license.h" />
+    <ClInclude Include="..\v7\src\main.h" />
+    <ClInclude Include="..\v7\src\main_public.h" />
+    <ClInclude Include="..\v7\src\mm.h" />
+    <ClInclude Include="..\v7\src\object.h" />
+    <ClInclude Include="..\v7\src\object_public.h" />
+    <ClInclude Include="..\v7\src\opcodes.h" />
+    <ClInclude Include="..\v7\src\parser.h" />
+    <ClInclude Include="..\v7\src\primitive.h" />
+    <ClInclude Include="..\v7\src\primitive_public.h" />
+    <ClInclude Include="..\v7\src\regexp.h" />
+    <ClInclude Include="..\v7\src\regexp_public.h" />
+    <ClInclude Include="..\v7\src\shdata.h" />
+    <ClInclude Include="..\v7\src\slre.h" />
+    <ClInclude Include="..\v7\src\stdlib.h" />
+    <ClInclude Include="..\v7\src\std_array.h" />
+    <ClInclude Include="..\v7\src\std_boolean.h" />
+    <ClInclude Include="..\v7\src\std_date.h" />
+    <ClInclude Include="..\v7\src\std_error.h" />
+    <ClInclude Include="..\v7\src\std_function.h" />
+    <ClInclude Include="..\v7\src\std_json.h" />
+    <ClInclude Include="..\v7\src\std_math.h" />
+    <ClInclude Include="..\v7\src\std_number.h" />
+    <ClInclude Include="..\v7\src\std_object.h" />
+    <ClInclude Include="..\v7\src\std_regex.h" />
+    <ClInclude Include="..\v7\src\std_string.h" />
+    <ClInclude Include="..\v7\src\string.h" />
+    <ClInclude Include="..\v7\src\string_public.h" />
+    <ClInclude Include="..\v7\src\tokenizer.h" />
+    <ClInclude Include="..\v7\src\util.h" />
+    <ClInclude Include="..\v7\src\util_public.h" />
+    <ClInclude Include="..\v7\src\v7_features.h" />
+    <ClInclude Include="..\v7\src\varint.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9BCDF56B-2C9A-4BDE-B627-DE422026A19C}</ProjectGuid>
+    <RootNamespace>v7</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IntDir>$(SolutionDir)$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>V7_EXPOSE_PRIVATE;V7_WINDOWS;V7_MAIN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir);..;..\common;..\v7;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ObjectFileName>$(IntDir)/%(RelativeDir)/</ObjectFileName>
+      <ForcedIncludeFiles>v7/src/internal.h</ForcedIncludeFiles>
+      <DisableSpecificWarnings>4005</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
